@@ -1,0 +1,5 @@
+name: 'Redirect Pages based on Role'
+type: module
+description: 'Redirect Pages based on Role'
+core_version_requirement: ^8 || ^9
+package: 'Custom'

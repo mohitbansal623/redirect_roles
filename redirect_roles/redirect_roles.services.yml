@@ -1,0 +1,6 @@
+services:
+  redirect_roles.event_subscriber:
+    class: Drupal\redirect_roles\EventSubscriber\RedirectAnonymousSubscriber
+    arguments: []
+    tags:
+      - {name: event_subscriber}
